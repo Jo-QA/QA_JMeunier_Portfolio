@@ -1,0 +1,52 @@
+name: QA - SauceDemo
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: qa-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  ui:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      SD_HEADLESS: 'true'
+      SE_AVOID_STATS: 'true'
+      TZ: UTC
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Verify Chrome prerequisite
+        run: google-chrome --version
+      - name: Install locked dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Validate dependencies and traceability
+        run: |
+          python -m pip check
+          python scripts/validate_portfolio.py
+          python -m unittest discover -s tests/unit -v
+      - name: Real UI regression (no automatic retry)
+        run: python scripts/run.py --suite regression --output results/ci
+      - name: Build factual summary
+        if: always()
+        run: |
+          if [ -f results/ci/environment.json ]; then
+            python scripts/summarize.py results/ci
+          fi
+      - name: Upload authentic execution artifacts
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: saucedemo-${{ github.run_id }}-${{ github.run_attempt }}
+          path: results/ci/
+          if-no-files-found: warn
+          retention-days: 14
