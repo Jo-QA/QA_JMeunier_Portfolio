@@ -1,0 +1,4 @@
+# Direct dependencies. requirements.txt locks the complete tested environment.
+robotframework==7.3.2
+robotframework-seleniumlibrary==6.7.1
+selenium==4.35.0

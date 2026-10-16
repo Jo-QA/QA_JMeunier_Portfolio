@@ -1,0 +1,64 @@
+﻿case_id,status,method,start_utc,elapsed_seconds,observed,error,browser_version,driver_version,screenshot
+TC04,PASS,"Protocole ponctuel Selenium assisté, hors suite Robot",2026-10-16T08:57:30.201781+00:00,3.275,Erreur Username is required ; formulaire de connexion conservé.,,155.0.8059.41,155.0.8059.84,TC04.png
+TC05,PASS,"Protocole ponctuel Selenium assisté, hors suite Robot",2026-10-16T08:57:33.477584+00:00,3.216,Erreur Password is required ; formulaire de connexion conservé.,,155.0.8059.41,155.0.8059.84,TC05.png
+TC07,PASS,"Protocole ponctuel Selenium assisté, hors suite Robot",2026-10-16T08:57:36.693981+00:00,3.421,Six produits uniques conformes à D-03 ; six images chargées et boutons visibles.,,155.0.8059.41,155.0.8059.84,TC07.png
+TC08,PASS,"Protocole ponctuel Selenium assisté, hors suite Robot",2026-10-16T08:57:40.115989+00:00,3.423,Fiche Backpack : nom/prix identiques ; retour catalogue et panier vide.,,155.0.8059.41,155.0.8059.84,TC08.png
+TC10,PASS,"Protocole ponctuel Selenium assisté, hors suite Robot",2026-10-16T08:57:43.539642+00:00,3.506,Ordre des prix décroissant ; tous les couples nom/prix conservés.,,155.0.8059.41,155.0.8059.84,TC10.png
+TC11,FAIL,"Protocole ponctuel Selenium assisté, hors suite Robot",2026-10-16T08:57:47.045880+00:00,3.456,,"Traceback (most recent call last):
+  File ""C:\Users\meuni\Documents\Codex\2026-10-16\referenced-chatgpt-conversation-this-is-an\work\verify_complementary.py"", line 112, in <module>
+    observed=check();status='PASS'
+             ^^^^^^^
+  File ""C:\Users\meuni\Documents\Codex\2026-10-16\referenced-chatgpt-conversation-this-is-an\work\verify_complementary.py"", line 102, in <lambda>
+    ('TC10',sort_prices_desc),('TC11',lambda:sort_names(True)),('TC12',lambda:sort_names(False)),
+                                             ^^^^^^^^^^^^^^^^
+  File ""C:\Users\meuni\Documents\Codex\2026-10-16\referenced-chatgpt-conversation-this-is-an\work\verify_complementary.py"", line 78, in sort_names
+    before=pairs();select.select_by_value('az' if ascending else 'za');after=pairs()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\meuni\Documents\Codex\2026-10-16\referenced-chatgpt-conversation-this-is-an\work\qa-venv\Lib\site-packages\selenium\webdriver\support\select.py"", line 74, in select_by_value
+    opts = self._el.find_elements(By.CSS_SELECTOR, css)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\meuni\Documents\Codex\2026-10-16\referenced-chatgpt-conversation-this-is-an\work\qa-venv\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 631, in find_elements
+    return self._execute(Command.FIND_CHILD_ELEMENTS, {""using"": by, ""value"": value})[""value""]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\meuni\Documents\Codex\2026-10-16\referenced-chatgpt-conversation-this-is-an\work\qa-venv\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\meuni\Documents\Codex\2026-10-16\referenced-chatgpt-conversation-this-is-an\work\qa-venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 458, in execute
+    self.error_handler.check_response(response)
+  File ""C:\Users\meuni\Documents\Codex\2026-10-16\referenced-chatgpt-conversation-this-is-an\work\qa-venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=155.0.8059.41); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	(No symbol) [0x7ff64842e745]
+	(No symbol) [0x7ff647fe3d00]
+	(No symbol) [0x7ff647e13f3d]
+	(No symbol) [0x7ff647e1c032]
+	(No symbol) [0x7ff647e1ed95]
+	(No symbol) [0x7ff647e1ee5f]
+	(No symbol) [0x7ff647e6ef2b]
+	(No symbol) [0x7ff647e6f9bc]
+	(No symbol) [0x7ff647e6315c]
+	(No symbol) [0x7ff647e62af6]
+	(No symbol) [0x7ff647ec4b5a]
+	(No symbol) [0x7ff647e61462]
+	(No symbol) [0x7ff647e62273]
+	(No symbol) [0x7ff6484d17b1]
+	(No symbol) [0x7ff6485087c7]
+	(No symbol) [0x7ff6484fc85e]
+	(No symbol) [0x7ff6481a884e]
+	(No symbol) [0x7ff647ff0415]
+	(No symbol) [0x7ff647febdf4]
+	(No symbol) [0x7ff647febf84]
+	(No symbol) [0x7ff647fd7f7c]
+	(No symbol) [0x7ffc4ff4dda7]
+	(No symbol) [0x7ffc515bee4c]
+
+",155.0.8059.41,155.0.8059.84,TC11.png
+TC12,PASS,"Protocole ponctuel Selenium assisté, hors suite Robot",2026-10-16T08:57:50.502436+00:00,3.469,Ordre des noms décroissant ; couples nom/prix conservés.,,155.0.8059.41,155.0.8059.84,TC12.png
+TC16,PASS,"Protocole ponctuel Selenium assisté, hors suite Robot",2026-10-16T08:57:53.972232+00:00,3.363,Dernier produit retiré ; bouton Add to cart restauré ; badge absent et panier vide.,,155.0.8059.41,155.0.8059.84,TC16.png
+TC18,PASS,"Protocole ponctuel Selenium assisté, hors suite Robot",2026-10-16T08:57:57.336500+00:00,3.404,Continue Shopping ouvre le catalogue ; Backpack et badge 1 conservés au retour.,,155.0.8059.41,155.0.8059.84,TC18.png
+TC20,PASS,"Protocole ponctuel Selenium assisté, hors suite Robot",2026-10-16T08:58:00.741493+00:00,3.568,Cancel depuis l’identité revient au panier ; Backpack conservé ; aucune confirmation.,,155.0.8059.41,155.0.8059.84,TC20.png
+TC23,PASS,"Protocole ponctuel Selenium assisté, hors suite Robot",2026-10-16T08:58:04.310034+00:00,3.582,Cancel depuis le récapitulatif revient au catalogue ; Backpack conservé ; aucune confirmation.,,155.0.8059.41,155.0.8059.84,TC23.png
+TC24,PASS,"Protocole ponctuel Selenium assisté, hors suite Robot",2026-10-16T08:58:07.891721+00:00,3.184,Accès direct anonyme refusé ; erreur de connexion visible ; aucun catalogue.,,155.0.8059.41,155.0.8059.84,TC24.png

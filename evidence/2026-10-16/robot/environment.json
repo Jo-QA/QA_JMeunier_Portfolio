@@ -1,0 +1,20 @@
+{
+  "captured_at_utc": "2026-10-16T08:54:52.085803+00:00",
+  "python": "3.12.14",
+  "os": "Windows",
+  "system_timezone": "Paris, Madrid (heure d\u2019\u00e9t\u00e9)",
+  "browser": "chrome",
+  "browser_version": "155.0.8059.41",
+  "driver_version": "155.0.8059.84",
+  "packages": {
+    "robotframework": "7.3.2",
+    "robotframework-seleniumlibrary": "6.7.1",
+    "selenium": "4.35.0"
+  },
+  "base_url": "https://www.saucedemo.com/",
+  "headless": "true",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  }
+}

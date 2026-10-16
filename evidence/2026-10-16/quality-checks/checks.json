@@ -1,0 +1,26 @@
+{
+  "checked_at_utc": "2026-10-16T09:10:16.989853+00:00",
+  "robot_ui": {
+    "passed": 12,
+    "failed": 0,
+    "source": "../robot/output.xml"
+  },
+  "complementary_ui": {
+    "passed": 12,
+    "failed": 0,
+    "source": "../complementary/results.json"
+  },
+  "unit_tests": {
+    "passed": 9,
+    "source": "unit-tests.txt"
+  },
+  "clean_install": "requirements.txt installed successfully in a fresh Python 3.12 virtual environment",
+  "pip_check": "PASS",
+  "design_and_links": "PASS",
+  "yaml_syntax_and_structure": "PASS",
+  "github_action_commits": "verified against official GitHub repositories; no CI execution claimed",
+  "pdf": "4 pages rendered and visually reviewed",
+  "final_screenshots": 25,
+  "scope": "Chrome/Windows only; GitHub Actions, Jenkins and Xray execution/import unverified",
+  "text_scan": "No excluded training project reference or recognized credential pattern found; public demo credentials intentionally included"
+}

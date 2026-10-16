@@ -1,0 +1,15 @@
+﻿id,titre,statut,oracle,risque
+H-01,Authentification valide,HYPOTHESE INFEREE - non approuvee par un PO,Un compte standard actif ouvre le catalogue après connexion.,R-01
+H-02,Refus de connexion,HYPOTHESE INFEREE - non approuvee par un PO,Un compte verrouillé ou un mot de passe erroné reste sur la connexion avec une erreur explicite.,R-01
+H-03,Champs de connexion,HYPOTHESE INFEREE - non approuvee par un PO,Le nom utilisateur et le mot de passe sont obligatoires.,R-01
+H-04,Déconnexion,HYPOTHESE INFEREE - non approuvee par un PO,La déconnexion ferme l’accès au catalogue ; une navigation directe ultérieure est refusée.,R-01
+H-05,Catalogue et fiche produit,HYPOTHESE INFEREE - non approuvee par un PO,Le catalogue standard contient les six produits de référence ; nom et prix restent cohérents sur la fiche.,R-02
+H-06,Tri,HYPOTHESE INFEREE - non approuvee par un PO,Les quatre tris réordonnent les produits sans perte ni duplication.,R-05
+H-07,Contenu du panier,HYPOTHESE INFEREE - non approuvee par un PO,"Ajout/retrait conserve les bons produits, prix, quantité unitaire et badge.",R-02
+H-08,Persistance de session,HYPOTHESE INFEREE - non approuvee par un PO,Un rechargement conserve le panier dans la même session navigateur.,R-03
+H-09,Identité obligatoire,HYPOTHESE INFEREE - non approuvee par un PO,"Prénom, nom et code postal non vides sont requis avant le récapitulatif.",R-04
+H-10,Annulation,HYPOTHESE INFEREE - non approuvee par un PO,Annuler avant finalisation retourne à un écran antérieur sans confirmation de commande ni perte du panier.,R-06
+H-11,Cohérence des montants,HYPOTHESE INFEREE - non approuvee par un PO,Sous-total = somme des lignes ; taxe = 8 % arrondis au centime (HALF_UP) ; total = sous-total + taxe.,R-02
+H-12,Finalisation,HYPOTHESE INFEREE - non approuvee par un PO,Finish affiche la confirmation et vide le panier. Le retour au catalogue reste possible.,R-07
+H-13,Navigation du panier,HYPOTHESE INFEREE - non approuvee par un PO,Continue Shopping retourne au catalogue et conserve le panier.,R-03
+H-14,Accès direct sans session,HYPOTHESE INFEREE - non approuvee par un PO,L’URL du catalogue sans session renvoie à la connexion avec une erreur.,R-01

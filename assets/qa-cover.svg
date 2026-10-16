@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-label="Portfolio QA SauceDemo, 24 cas, 12 scénarios Robot, preuves réelles">
+<rect width="1200" height="350" rx="20" fill="#102a35"/>
+<path d="M850 0H1200V350H1000Z" fill="#153e49"/>
+<path d="M1050 0H1200V350H1160Z" fill="#1e555c"/>
+<rect x="48" y="45" width="45" height="5" rx="2" fill="#60d6b0"/>
+<text x="108" y="53" fill="#a8c9ce" font-family="Arial,sans-serif" font-size="17" letter-spacing="3">QA ENGINEERING / ÉTUDE INDÉPENDANTE</text>
+<text x="48" y="142" fill="#ffffff" font-family="Arial,sans-serif" font-size="66" font-weight="700">SauceDemo</text>
+<text x="50" y="192" fill="#bcd4d7" font-family="Arial,sans-serif" font-size="25">Risques. Tests. Preuves.</text>
+<g font-family="Arial,sans-serif"><text x="50" y="270" fill="#60d6b0" font-size="36" font-weight="700">24</text><text x="112" y="270" fill="#ffffff" font-size="20">cas de test</text>
+<text x="300" y="270" fill="#60d6b0" font-size="36" font-weight="700">12</text><text x="362" y="270" fill="#ffffff" font-size="20">scénarios Robot</text>
+<text x="620" y="270" fill="#60d6b0" font-size="36" font-weight="700">25</text><text x="682" y="270" fill="#ffffff" font-size="20">captures réelles</text>
+<text x="50" y="316" fill="#91b4bb" font-size="15">ISTQB FOUNDATION · QSE → QA · ROBOT FRAMEWORK · SELENIUM · PYTHON</text></g>
+</svg>

@@ -1,0 +1,30 @@
+name: Observed defect
+description: Record a reproduced observation against an explicit oracle.
+title: "[Observation] "
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment and evidence
+      description: URL, UTC date, browser version, user type, evidence path. No credentials.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Preconditions and exact reproduction steps
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected result, actual result and oracle
+      description: Identify inferred hypothesis or approved requirement. Distinguish intentional demo behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact, severity, frequency, linked test and triage decision
+    validations:
+      required: true

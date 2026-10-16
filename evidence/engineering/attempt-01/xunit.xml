@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SauceDemo QA Portfolio" tests="12" errors="0" failures="12" skipped="0" time="42.069" timestamp="2026-10-16T10:46:33.961442">
+<testsuite name="Saucedemo" tests="12" errors="0" failures="12" skipped="0" time="42.046" timestamp="2026-10-16T10:46:33.983955">
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC01 Valid Login Opens Inventory" time="3.371">
+<failure message="Teardown failed:&#10;AttributeError: 'SeleniumLibrary' object has no attribute 'drivers'" type="AssertionError"/>
+</testcase>
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC02 Locked User Is Refused" time="3.333">
+<failure message="Teardown failed:&#10;AttributeError: 'SeleniumLibrary' object has no attribute 'drivers'" type="AssertionError"/>
+</testcase>
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC03 Wrong Password Is Refused" time="3.247">
+<failure message="Teardown failed:&#10;AttributeError: 'SeleniumLibrary' object has no attribute 'drivers'" type="AssertionError"/>
+</testcase>
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC06 Logout Returns To Login" time="3.451">
+<failure message="Button with locator 'css:[data-test=&quot;open-menu&quot;]' not found.&#10;&#10;Also teardown failed:&#10;AttributeError: 'SeleniumLibrary' object has no attribute 'drivers'" type="AssertionError"/>
+</testcase>
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC09 Prices Sort Ascending" time="3.371">
+<failure message="Teardown failed:&#10;AttributeError: 'SeleniumLibrary' object has no attribute 'drivers'" type="AssertionError"/>
+</testcase>
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC13 Add One Product" time="3.414">
+<failure message="Teardown failed:&#10;AttributeError: 'SeleniumLibrary' object has no attribute 'drivers'" type="AssertionError"/>
+</testcase>
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC14 Add Two Distinct Products" time="3.471">
+<failure message="Teardown failed:&#10;AttributeError: 'SeleniumLibrary' object has no attribute 'drivers'" type="AssertionError"/>
+</testcase>
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC15 Remove One Product From Cart" time="3.484">
+<failure message="Teardown failed:&#10;AttributeError: 'SeleniumLibrary' object has no attribute 'drivers'" type="AssertionError"/>
+</testcase>
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC17 Cart Persists After Reload" time="3.598">
+<failure message="Teardown failed:&#10;AttributeError: 'SeleniumLibrary' object has no attribute 'drivers'" type="AssertionError"/>
+</testcase>
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC19 Checkout Requires All Identity Fields" time="3.682">
+<failure message="Teardown failed:&#10;AttributeError: 'SeleniumLibrary' object has no attribute 'drivers'" type="AssertionError"/>
+</testcase>
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC21 Checkout Amounts Are Consistent" time="3.656">
+<failure message="Teardown failed:&#10;AttributeError: 'SeleniumLibrary' object has no attribute 'drivers'" type="AssertionError"/>
+</testcase>
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC22 Complete Order Clears Cart" time="3.714">
+<failure message="Teardown failed:&#10;AttributeError: 'SeleniumLibrary' object has no attribute 'drivers'" type="AssertionError"/>
+</testcase>
+<properties>
+<property name="Documentation" value="Public demo only. Business oracles are inferred hypotheses H-01 to H-14."/>
+</properties>
+</testsuite>
+</testsuite>

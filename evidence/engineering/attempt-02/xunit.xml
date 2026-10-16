@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SauceDemo QA Portfolio" tests="12" errors="0" failures="1" skipped="0" time="43.849" timestamp="2026-10-16T10:47:35.731440">
+<testsuite name="Saucedemo" tests="12" errors="0" failures="1" skipped="0" time="43.823" timestamp="2026-10-16T10:47:35.757077">
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC01 Valid Login Opens Inventory" time="3.386">
+</testcase>
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC02 Locked User Is Refused" time="3.303">
+</testcase>
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC03 Wrong Password Is Refused" time="3.298">
+</testcase>
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC06 Logout Returns To Login" time="4.420">
+<failure message="ElementClickInterceptedException: Message: element click intercepted: Element &lt;img class=&quot;bm-icon&quot; alt=&quot;Open Menu&quot; data-test=&quot;open-menu&quot; srcset=&quot;data:image/svg+xml,%3csvg%20width='32'%20height='32'%20viewBox='0%200%2016%2016'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M0.666626%202.83333C0.666626%202.3731%201.00863%202%201.43051%202H14.5694C14.9913%202%2015.3333%202.3731%2015.3333%202.83333C15.3333%203.29357%2014.9913%203.66667%2014.5694%203.66667H1.43051C1.00863%203.66667%200.666626%203.29357%200.666626%202.83333ZM0.666626%207.5C0.666626%207.03976%201.00863%206.66667%201.43051%206.66667H14.5694C14.9913%206.66667%2015.3333%207.03976%2015.3333%207.5C15.3333%207.96024%2014.9913%208.33333%2014.5694%208.33333H1.43051C1.00863%208.33333%200.666626%207.96024%200.666626%207.5ZM1.43051%2011.3333C1.00863%2011.3333%200.666626%2011.7064%200.666626%2012.1667C0.666626%2012.6269%201.00863%2013%201.43051%2013H14.5694C14.9913%2013%2015.3333%2012.6269%2015.3333%2012.1667C15.3333%2011.7064%2014.9913%2011.3333%2014.5694%2011.3333H1.43051Z'%20fill='%23132322'%20/%3e%3c/svg%3e&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDkuMC1jMDAwIDc5LmRhNGE3ZTVlZiwgMjAyMi8xMS8yMi0xMzo1MDowNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi...&#10;    [ Message content over the limit has been removed. ]&#10;&#09;(No symbol) [0x7ff647e774e3]&#10;&#09;(No symbol) [0x7ff647e750da]&#10;&#09;(No symbol) [0x7ff647e72417]&#10;&#09;(No symbol) [0x7ff647e712d0]&#10;&#09;(No symbol) [0x7ff647e63278]&#10;&#09;(No symbol) [0x7ff647e98ada]&#10;&#09;(No symbol) [0x7ff647e62af6]&#10;&#09;(No symbol) [0x7ff647ec4b5a]&#10;&#09;(No symbol) [0x7ff647e61462]&#10;&#09;(No symbol) [0x7ff647e62273]&#10;&#09;(No symbol) [0x7ff6484d17b1]&#10;&#09;(No symbol) [0x7ff6485087c7]&#10;&#09;(No symbol) [0x7ff6484fc85e]&#10;&#09;(No symbol) [0x7ff6481a884e]&#10;&#09;(No symbol) [0x7ff647ff0415]&#10;&#09;(No symbol) [0x7ff647febdf4]&#10;&#09;(No symbol) [0x7ff647febf84]&#10;&#09;(No symbol) [0x7ff647fd7f7c]&#10;&#09;(No symbol) [0x7ffc4ff4dda7]&#10;&#09;(No symbol) [0x7ffc515bee4c]" type="AssertionError"/>
+</testcase>
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC09 Prices Sort Ascending" time="3.438">
+</testcase>
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC13 Add One Product" time="3.439">
+</testcase>
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC14 Add Two Distinct Products" time="3.466">
+</testcase>
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC15 Remove One Product From Cart" time="3.477">
+</testcase>
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC17 Cart Persists After Reload" time="4.248">
+</testcase>
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC19 Checkout Requires All Identity Fields" time="3.735">
+</testcase>
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC21 Checkout Amounts Are Consistent" time="3.652">
+</testcase>
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC22 Complete Order Clears Cart" time="3.706">
+</testcase>
+<properties>
+<property name="Documentation" value="Public demo only. Business oracles are inferred hypotheses H-01 to H-14."/>
+</properties>
+</testsuite>
+</testsuite>

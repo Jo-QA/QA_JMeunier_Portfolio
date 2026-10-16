@@ -1,0 +1,25 @@
+﻿id,statut,methode,preuve,observation
+TC01,PASS,Robot Framework + SeleniumLibrary,evidence/2026-10-16/robot/TC01.png,Assertions du scénario passantes ; consulter output.xml et log.html.
+TC02,PASS,Robot Framework + SeleniumLibrary,evidence/2026-10-16/robot/TC02.png,Assertions du scénario passantes ; consulter output.xml et log.html.
+TC03,PASS,Robot Framework + SeleniumLibrary,evidence/2026-10-16/robot/TC03.png,Assertions du scénario passantes ; consulter output.xml et log.html.
+TC04,PASS,"Vérification ponctuelle assistée Selenium, hors suite Robot",evidence/2026-10-16/complementary/TC04.png,Erreur Username is required ; formulaire de connexion conservé.
+TC05,PASS,"Vérification ponctuelle assistée Selenium, hors suite Robot",evidence/2026-10-16/complementary/TC05.png,Erreur Password is required ; formulaire de connexion conservé.
+TC06,PASS,Robot Framework + SeleniumLibrary,evidence/2026-10-16/robot/TC06.png,Assertions du scénario passantes ; consulter output.xml et log.html.
+TC07,PASS,"Vérification ponctuelle assistée Selenium, hors suite Robot",evidence/2026-10-16/complementary/TC07.png,Six produits uniques conformes à D-03 ; six images chargées et boutons visibles.
+TC08,PASS,"Vérification ponctuelle assistée Selenium, hors suite Robot",evidence/2026-10-16/complementary/TC08.png,Fiche Backpack : nom/prix identiques ; retour catalogue et panier vide.
+TC09,PASS,Robot Framework + SeleniumLibrary,evidence/2026-10-16/robot/TC09.png,Assertions du scénario passantes ; consulter output.xml et log.html.
+TC10,PASS,"Vérification ponctuelle assistée Selenium, hors suite Robot",evidence/2026-10-16/complementary/TC10.png,Ordre des prix décroissant ; tous les couples nom/prix conservés.
+TC11,PASS,"Vérification ponctuelle assistée Selenium, hors suite Robot",evidence/2026-10-16/complementary/TC11.png,Ordre des noms croissant ; couples nom/prix conservés.
+TC12,PASS,"Vérification ponctuelle assistée Selenium, hors suite Robot",evidence/2026-10-16/complementary/TC12.png,Ordre des noms décroissant ; couples nom/prix conservés.
+TC13,PASS,Robot Framework + SeleniumLibrary,evidence/2026-10-16/robot/TC13.png,Assertions du scénario passantes ; consulter output.xml et log.html.
+TC14,PASS,Robot Framework + SeleniumLibrary,evidence/2026-10-16/robot/TC14.png,Assertions du scénario passantes ; consulter output.xml et log.html.
+TC15,PASS,Robot Framework + SeleniumLibrary,evidence/2026-10-16/robot/TC15.png,Assertions du scénario passantes ; consulter output.xml et log.html.
+TC16,PASS,"Vérification ponctuelle assistée Selenium, hors suite Robot",evidence/2026-10-16/complementary/TC16.png,Dernier produit retiré ; bouton Add to cart restauré ; badge absent et panier vide.
+TC17,PASS,Robot Framework + SeleniumLibrary,evidence/2026-10-16/robot/TC17.png,Assertions du scénario passantes ; consulter output.xml et log.html.
+TC18,PASS,"Vérification ponctuelle assistée Selenium, hors suite Robot",evidence/2026-10-16/complementary/TC18.png,Continue Shopping ouvre le catalogue ; Backpack et badge 1 conservés au retour.
+TC19,PASS,Robot Framework + SeleniumLibrary,evidence/2026-10-16/robot/TC19.png,Assertions du scénario passantes ; consulter output.xml et log.html.
+TC20,PASS,"Vérification ponctuelle assistée Selenium, hors suite Robot",evidence/2026-10-16/complementary/TC20.png,Cancel depuis l’identité revient au panier ; Backpack conservé ; aucune confirmation.
+TC21,PASS,Robot Framework + SeleniumLibrary,evidence/2026-10-16/robot/TC21.png,Assertions du scénario passantes ; consulter output.xml et log.html.
+TC22,PASS,Robot Framework + SeleniumLibrary,evidence/2026-10-16/robot/TC22.png,Assertions du scénario passantes ; consulter output.xml et log.html.
+TC23,PASS,"Vérification ponctuelle assistée Selenium, hors suite Robot",evidence/2026-10-16/complementary/TC23.png,Cancel depuis le récapitulatif revient au catalogue ; Backpack conservé ; aucune confirmation.
+TC24,PASS,"Vérification ponctuelle assistée Selenium, hors suite Robot",evidence/2026-10-16/complementary/TC24.png,Accès direct anonyme refusé ; erreur de connexion visible ; aucun catalogue.

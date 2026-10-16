@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SauceDemo QA Portfolio" tests="12" errors="0" failures="0" skipped="0" time="42.618" timestamp="2026-10-16T10:54:12.355425">
+<testsuite name="Saucedemo" tests="12" errors="0" failures="0" skipped="0" time="42.595" timestamp="2026-10-16T10:54:12.378145">
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC01 Valid Login Opens Inventory" time="3.583">
+</testcase>
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC02 Locked User Is Refused" time="3.284">
+</testcase>
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC03 Wrong Password Is Refused" time="3.271">
+</testcase>
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC06 Logout Returns To Login" time="3.697">
+</testcase>
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC09 Prices Sort Ascending" time="3.487">
+</testcase>
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC13 Add One Product" time="3.451">
+</testcase>
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC14 Add Two Distinct Products" time="3.486">
+</testcase>
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC15 Remove One Product From Cart" time="3.506">
+</testcase>
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC17 Cart Persists After Reload" time="3.497">
+</testcase>
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC19 Checkout Requires All Identity Fields" time="3.732">
+</testcase>
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC21 Checkout Amounts Are Consistent" time="3.632">
+</testcase>
+<testcase classname="SauceDemo QA Portfolio.Saucedemo" name="TC22 Complete Order Clears Cart" time="3.709">
+</testcase>
+<properties>
+<property name="Documentation" value="Public demo only. Business oracles are inferred hypotheses H-01 to H-14."/>
+</properties>
+</testsuite>
+</testsuite>

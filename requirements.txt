@@ -1,0 +1,22 @@
+# Python 3.12; resolved and tested on Windows on 2026-10-16.
+attrs==26.1.0
+certifi==2026.7.22
+cffi==2.1.1
+click==8.5.0
+h11==0.16.0
+idna==3.20
+outcome==1.3.0.post0
+pycparser==3.11
+PySocks==1.7.1
+robotframework==7.3.2
+robotframework-pythonlibcore==4.6.0
+robotframework-seleniumlibrary==6.7.1
+selenium==4.35.0
+sniffio==1.3.1
+sortedcontainers==2.4.0
+trio==0.30.0
+trio-websocket==0.12.2
+typing_extensions==4.14.1
+urllib3==2.8.0
+websocket-client==1.8.0
+wsproto==1.3.2

@@ -1,0 +1,9 @@
+﻿id,risque,impact,probabilite,score,priorite,mesure,cas,risque_residuel
+R-01,Accès incorrect ou session non révoquée,5,3,15,P1,"Connexion, erreurs, déconnexion, accès direct",TC01 TC02 TC03 TC04 TC05 TC06 TC24,La protection serveur reste hors périmètre.
+R-02,"Panier, produits ou montants incohérents",5,4,20,P1,"Contrôles des lignes, badge, prix et calculs indépendants",TC07 TC08 TC13 TC14 TC15 TC16 TC21,Un seul jeu à deux articles pour le calcul automatisé.
+R-03,Perte du panier pendant la navigation,4,3,12,P2,Rechargement dans la même session et retour au catalogue,TC17 TC18,Persistance multi-appareil et nouvelle session non couvertes.
+R-04,Commande avec identité incomplète,4,3,12,P2,"Classes d’équivalence : prénom, nom, code postal absents",TC19,"Formats postaux internationaux, blancs et limites à explorer."
+R-05,Tri trompeur ou perte d’un produit,3,2,6,P3,Ordre ascendant/descendant et conservation du multiensemble,TC09 TC10 TC11 TC12,Un catalogue fixe ; pas de pagination.
+R-06,Annulation destructive ou commande involontaire,4,3,12,P2,Annuler aux deux étapes et contrôler le panier,TC20 TC23,Back navigateur et double clic à explorer.
+R-07,Fausse confirmation ou panier non vidé,5,4,20,P1,"Parcours complet, confirmation, panier vide et retour catalogue",TC22,"Aucune vérification de stock, paiement ou commande côté serveur."
+R-08,Environnement instable ou résultats peu fiables,3,3,9,P2,"Sessions neuves, dépendances figées, preuves et code retour conservé",TOUS,Site public et versions navigateur susceptibles d’évoluer.

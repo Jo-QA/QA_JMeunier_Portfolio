@@ -1,0 +1,14 @@
+test_public_and_local_targets_are_allowed (test_oracles_and_config.ConfigurationTests.test_public_and_local_targets_are_allowed) ... ok
+test_timeout_bounds_are_enforced (test_oracles_and_config.ConfigurationTests.test_timeout_bounds_are_enforced) ... ok
+test_unapproved_targets_and_credentials_are_rejected (test_oracles_and_config.ConfigurationTests.test_unapproved_targets_and_credentials_are_rejected) ... ok
+test_cent_rounding (test_oracles_and_config.MonetaryOracleTests.test_cent_rounding) ... ok
+test_duplicates_in_sorted_prices_are_valid (test_oracles_and_config.MonetaryOracleTests.test_duplicates_in_sorted_prices_are_valid) ... ok
+test_inconsistent_components_are_rejected_independently (test_oracles_and_config.MonetaryOracleTests.test_inconsistent_components_are_rejected_independently) ... ok
+test_malformed_currency_does_not_silently_pass (test_oracles_and_config.MonetaryOracleTests.test_malformed_currency_does_not_silently_pass) ... ok
+test_unsorted_or_too_small_catalog_is_rejected (test_oracles_and_config.MonetaryOracleTests.test_unsorted_or_too_small_catalog_is_rejected) ... ok
+test_valid_totals_are_calculated_from_all_lines (test_oracles_and_config.MonetaryOracleTests.test_valid_totals_are_calculated_from_all_lines) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.005s
+
+OK

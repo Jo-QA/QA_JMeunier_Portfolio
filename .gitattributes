@@ -1,0 +1,8 @@
+* text=auto
+*.py text eol=lf
+*.robot text eol=lf
+*.resource text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.png binary
+*.pdf binary
