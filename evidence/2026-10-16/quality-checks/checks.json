@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-16T09:10:16.989853+00:00",
+  "checked_at_utc": "2026-10-16T09:52:38.414943+00:00",
   "robot_ui": {
     "passed": 12,
     "failed": 0,
@@ -18,9 +18,9 @@
   "pip_check": "PASS",
   "design_and_links": "PASS",
   "yaml_syntax_and_structure": "PASS",
-  "github_action_commits": "verified against official GitHub repositories; no CI execution claimed",
+  "github_action_commits": "verified against official GitHub repositories; first public CI run passed on Linux in 43 seconds",
   "pdf": "4 pages rendered and visually reviewed",
   "final_screenshots": 25,
-  "scope": "Chrome/Windows only; GitHub Actions, Jenkins and Xray execution/import unverified",
+  "scope": "UI evidence archived from Chrome/Windows; public GitHub Actions run verified; Jenkins and Xray execution/import unverified",
   "text_scan": "No excluded training project reference or recognized credential pattern found; public demo credentials intentionally included"
 }

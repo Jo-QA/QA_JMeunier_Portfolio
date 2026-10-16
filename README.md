@@ -1,12 +1,14 @@
 ![Portfolio QA - SauceDemo](assets/qa-cover.svg)
 
+[![QA - SauceDemo](https://github.com/Jo-QA/QA_JMeunier_Portfolio_SauceDemo/actions/workflows/qa.yml/badge.svg)](https://github.com/Jo-QA/QA_JMeunier_Portfolio_SauceDemo/actions/workflows/qa.yml)
+
 # Portfolio d’ingénieur QA freelance
 
 **ISTQB Foundation · Reconversion QSE → QA · Tests fonctionnels et automatisation**
 
 Une étude indépendante sur SauceDemo : transformer les risques d’un parcours e-commerce en tests traçables, puis apporter des preuves d’exécution. L’expérience QSE se traduit ici par la prévention des risques, la maîtrise des écarts et une restitution documentée. Cette étude a été préparée avec assistance IA ; elle ne représente pas une mission client.
 
-**Preuves du 16 octobre 2026 : 12/12 scénarios Robot passants + 12/12 contrôles complémentaires assistés Selenium.** Les 24 cas conçus ont été vérifiés dans Chrome sur Windows. Aucune exécution CI, aucun import Xray et aucune validation métier ne sont prétendus.
+**Preuves du 16 octobre 2026 : 12/12 scénarios Robot passants + 12/12 contrôles complémentaires assistés Selenium.** Les 24 cas conçus ont été vérifiés dans Chrome sur Windows. La première exécution GitHub Actions publique a également réussi sur Linux en 43 secondes. Aucun import Xray ni validation métier ne sont prétendus.
 
 ## À consulter en deux minutes
 
@@ -19,14 +21,14 @@ Une étude indépendante sur SauceDemo : transformer les risques d’un parcours
 | Le code | [Suite Robot](tests/ui/saucedemo.robot) · [Architecture POM](docs/architecture.md) |
 | La publication | [Guide GitHub](docs/publish-github.md) |
 
-Sur GitHub, les rapports HTML se téléchargent puis s’ouvrent localement dans un navigateur. Aucun lien de badge « CI passing » n’est affiché avant une véritable exécution distante.
+Sur GitHub, les rapports HTML se téléchargent puis s’ouvrent localement dans un navigateur. Le badge ci-dessus reflète les exécutions réelles du workflow public.
 
 ## Ce que le projet démontre
 
 - Analyse des risques : 8 risques, 14 hypothèses métier identifiées comme telles, priorisation et risques résiduels.
 - Conception : 24 cas, partitions d’équivalence, transitions et contrôles de cohérence ; données publiques et synthétiques.
 - Automatisation : 12 scénarios Robot Framework + SeleniumLibrary ; POM en resource files, isolation de session, attentes explicites, calculs monétaires Python avec Decimal.
-- Intégration : GitHub Actions et Jenkinsfile préparés ; mapping Jira/Xray et CSV de cas sans clé fictive.
+- Intégration : GitHub Actions exécuté publiquement ; Jenkinsfile préparé ; mapping Jira/Xray et CSV de cas sans clé fictive.
 - Restitution : résultats d’origine, 25 captures, historique des erreurs du harnais, bilan et synthèse client.
 
 ## Installer et exécuter
@@ -85,7 +87,7 @@ scripts/              exécution, validation et synthèse
 docs/                 stratégie, plan, cas, matrice, campagnes, bilan, PDF
 integrations/xray/    cas CSV et mapping préparés
 evidence/             preuves réelles datées et historique de mise au point
-.github/workflows/    CI GitHub Actions préparée
+.github/workflows/    CI GitHub Actions publique et exécutée
 Jenkinsfile           pipeline Linux préparé
 ```
 
@@ -97,7 +99,7 @@ Toutes les règles H-xx sont des **hypothèses inférées**, sans spécification
 
 Aucun ticket produit n’a été créé sans écart observé. Les deux tentatives de mise au point conservées concernent le code de test. [Le registre](docs/defects/README.md) explique les règles de qualification. La certification et le parcours professionnel sont des informations fournies par le propriétaire, sans identifiant inventé.
 
-Le dépôt reste local, prêt à publier sous **QA-Portfolio-SauceDemo**. GitHub Actions, Jenkins et Xray sont préparés et documentés ; leur exécution réelle dépend des comptes et instances. [Publier sur GitHub](docs/publish-github.md) est la seule étape nécessaire pour obtenir un lien public. [Guide de démonstration](docs/demo-guide.md) pour présenter l’étude en trois minutes.
+Le dépôt est public : **[Jo-QA/QA_JMeunier_Portfolio_SauceDemo](https://github.com/Jo-QA/QA_JMeunier_Portfolio_SauceDemo)**. GitHub Actions est réellement exécuté ; Jenkins et Xray restent des intégrations préparées, dépendantes d’instances et de droits réels. [Publication et maintenance](docs/publish-github.md) · [Guide de démonstration](docs/demo-guide.md) pour présenter l’étude en trois minutes.
 
 ## Sources et droits
 

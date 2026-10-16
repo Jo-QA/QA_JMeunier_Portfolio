@@ -45,10 +45,10 @@ Les tentatives réelles sont dans `evidence/engineering/`. Le contrôle dry-run 
 
 Vérifié : disponibilité ponctuelle, 24 cas dans Chrome/Windows avec les modalités ci-dessus, installation des dépendances figées dans un second environnement virtuel vierge, cohérence des dépendances, syntaxe Robot et traçabilité. Les résultats détaillés constituent les preuves.
 
-Contrôles internes distincts des 24 cas fonctionnels : 9 tests unitaires passants sur les oracles monétaires et la configuration. Ils vérifient notamment le rejet des montants incohérents, des monnaies mal formées et des cibles non autorisées. Les actions GitHub sont épinglées à des commits officiels vérifiés ; cela ne constitue pas une exécution de la CI.
+Contrôles internes distincts des 24 cas fonctionnels : 9 tests unitaires passants sur les oracles monétaires et la configuration. Ils vérifient notamment le rejet des montants incohérents, des monnaies mal formées et des cibles non autorisées. Les actions GitHub sont épinglées à des commits officiels vérifiés.
 
-La syntaxe et la structure YAML du workflow et du modèle de ticket ont aussi été contrôlées. Les journaux de contrôle final sont dans `evidence/2026-10-16/quality-checks/` ; ces validations statiques ne prouvent pas l’exécution distante.
+La syntaxe et la structure YAML du workflow et du modèle de ticket ont aussi été contrôlées. La première exécution publique GitHub Actions sur Linux a réussi en 43 secondes : [run 38882835172](https://github.com/Jo-QA/QA_JMeunier_Portfolio_SauceDemo/actions/runs/38882835172). Les journaux du contrôle local final restent dans `evidence/2026-10-16/quality-checks/`.
 
-Non vérifié : exécution GitHub Actions sur Linux, exécution Jenkins, import dans Jira/Xray, autre navigateur/mobile, tests de charge/sécurité, exploration hors des 24 cas et approbation métier. Les fichiers CI et d’intégration sont préparés et inspectés, sans résultat d’exécution distant inventé. Aucune vidéo n’a été enregistrée ; un guide de démonstration et les captures sont fournis.
+Non vérifié : exécution Jenkins, import dans Jira/Xray, autre navigateur/mobile, tests de charge/sécurité, exploration hors des 24 cas et approbation métier. Les fichiers Jenkins et Xray sont préparés et inspectés, sans résultat inventé. Aucune vidéo n’a été enregistrée ; un guide de démonstration et les captures sont fournis.
 
 Conclusion de cette étude : les contrôles définis passent dans l’environnement testé. Le portfolio est montrable en expliquant ses oracles et ses limites. Une décision de mise en production réelle demanderait un périmètre, des exigences approuvées et des critères de risque propres au client.
