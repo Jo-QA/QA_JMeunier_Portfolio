@@ -1,6 +1,6 @@
 ![Portfolio QA - SauceDemo](assets/qa-cover.svg)
 
-[![QA - SauceDemo](https://github.com/Jo-QA/QA_JMeunier_Portfolio_SauceDemo/actions/workflows/qa.yml/badge.svg)](https://github.com/Jo-QA/QA_JMeunier_Portfolio_SauceDemo/actions/workflows/qa.yml)
+[![QA - SauceDemo](https://github.com/Jo-QA/QA_JMeunier_Portfolio/actions/workflows/qa.yml/badge.svg)](https://github.com/Jo-QA/QA_JMeunier_Portfolio/actions/workflows/qa.yml)
 
 # Portfolio d’ingénieur QA freelance
 
@@ -99,7 +99,7 @@ Toutes les règles H-xx sont des **hypothèses inférées**, sans spécification
 
 Aucun ticket produit n’a été créé sans écart observé. Les deux tentatives de mise au point conservées concernent le code de test. [Le registre](docs/defects/README.md) explique les règles de qualification. La certification et le parcours professionnel sont des informations fournies par le propriétaire, sans identifiant inventé.
 
-Le dépôt est public : **[Jo-QA/QA_JMeunier_Portfolio_SauceDemo](https://github.com/Jo-QA/QA_JMeunier_Portfolio_SauceDemo)**. GitHub Actions est réellement exécuté ; Jenkins et Xray restent des intégrations préparées, dépendantes d’instances et de droits réels. [Publication et maintenance](docs/publish-github.md) · [Guide de démonstration](docs/demo-guide.md) pour présenter l’étude en trois minutes.
+Le dépôt est public : **[Jo-QA/QA_JMeunier_Portfolio](https://github.com/Jo-QA/QA_JMeunier_Portfolio)**. GitHub Actions est réellement exécuté ; Jenkins et Xray restent des intégrations préparées, dépendantes d’instances et de droits réels. [Publication et maintenance](docs/publish-github.md) · [Guide de démonstration](docs/demo-guide.md) pour présenter l’étude en trois minutes.
 
 ## Sources et droits
 

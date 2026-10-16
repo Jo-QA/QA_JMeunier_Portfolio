@@ -1,8 +1,8 @@
 # Publication et maintenance GitHub
 
-Le portfolio est publié dans le dépôt public **[Jo-QA/QA_JMeunier_Portfolio_SauceDemo](https://github.com/Jo-QA/QA_JMeunier_Portfolio_SauceDemo)**.
+Le portfolio est publié dans le dépôt public **[Jo-QA/QA_JMeunier_Portfolio](https://github.com/Jo-QA/QA_JMeunier_Portfolio)**.
 
-La première exécution publique du workflow GitHub Actions a réussi sur Linux en 43 secondes : [consulter l’exécution 38882835172](https://github.com/Jo-QA/QA_JMeunier_Portfolio_SauceDemo/actions/runs/38882835172). Le badge du README reflète le dernier état du workflow.
+La première exécution publique du workflow GitHub Actions a réussi sur Linux en 43 secondes : [consulter l’exécution 38882835172](https://github.com/Jo-QA/QA_JMeunier_Portfolio/actions/runs/38882835172). Le badge du README reflète le dernier état du workflow.
 
 ## Mettre à jour le dépôt
 
