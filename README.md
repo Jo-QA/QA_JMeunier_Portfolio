@@ -31,6 +31,21 @@ Sur GitHub, les rapports HTML se téléchargent puis s’ouvrent localement dans
 - Intégration : GitHub Actions exécuté publiquement ; Jenkinsfile préparé ; mapping Jira/Xray et CSV de cas sans clé fictive.
 - Restitution : résultats d’origine, 25 captures, historique des erreurs du harnais, bilan et synthèse client.
 
+## Exemple de format d’intervention QA
+
+Pour une équipe qui souhaite sécuriser un parcours métier prioritaire, une intervention ciblée peut comprendre :
+
+- cadrage du périmètre, des usages attendus et des principaux risques ;
+- recette fonctionnelle du parcours convenu sur les environnements retenus ;
+- rapport d’anomalies priorisé avec étapes de reproduction, résultats observés et captures ;
+- synthèse des risques résiduels et recommandations directement exploitables ;
+- restitution courte avec l’équipe pour partager les constats et les prochaines actions ;
+- automatisation d’un scénario critique lorsque le contexte s’y prête.
+
+Le contenu exact est défini selon le produit, le niveau de maturité QA et l’objectif de l’équipe. Ce format décrit un mode d’intervention possible ; il ne constitue pas une mission client présentée dans ce portfolio.
+
+Pour échanger sur un besoin QA : [jm.conseil.qse@gmail.com](mailto:jm.conseil.qse@gmail.com)
+
 ## Installer et exécuter
 
 Prérequis : **Python 3.12**, Google Chrome installé, accès à PyPI, SauceDemo et aux téléchargements ChromeDriver. Git est utile pour publier. La suite n’exige ni compte Sauce Labs, ni abonnement, ni vrai secret. La version du navigateur et du pilote est consignée à chaque exécution ; requirements.txt fige les dépendances Python, pas le système.
